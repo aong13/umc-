@@ -1,0 +1,27 @@
+label {
+    color:black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+  
+  input {
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 70%;
+    background-color: #002c5b;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
