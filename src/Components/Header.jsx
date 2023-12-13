@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom'
-import LoginControl from './LoginControl';
 import LoginButton from './LoginButton';
 
 function Header() {

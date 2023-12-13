@@ -66,6 +66,7 @@ const handleSubmit = async () => {
   }
   await getData();
   //토큰가져오기
+  
   const token = localStorage.getItem('token'); 
   const headers = { Authorization: token };
   axios.get('http://localhost:8000/user/payload', { headers })
